@@ -2,7 +2,7 @@
   "name": "unit-test-js",
   "author": "Prabhat",
   "YouTut": "https://youtube.com/playlist?list=PLolI8AY2AS9YrlE4RXrU7ZZUEBo0cNCEd",
-  "git": "",
+  "git": "https://github.com/prabhat-cn/unit-test-react-js-fresh.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
