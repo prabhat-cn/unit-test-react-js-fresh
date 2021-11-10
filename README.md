@@ -2,9 +2,16 @@
 
 ## For testing
 
+## package jest
+
 npm i --save-dev jest@26.6.0
+
+## package enzyme-adapter-react
+
 npm install --save-dev enzyme @wojtekmaj/enzyme-adapter-react-17
-or
+
+# or
+
 npm install --save-dev enzyme enzyme-adapter-react-16
 
 ## To update snapshot after test running
