@@ -1,9 +1,9 @@
-import { shallow } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import '../../setupTests';
 import Table from '../table/Table';
 import { Counter } from './Counter';
 
-describe('Counter Component', () => {
+describe.skip('Counter Component', () => {
   // it('render Without any error is Present', () => {
   //   let wrapper = shallow(<Counter />);
   //   console.log(wrapper.debug());
@@ -101,5 +101,14 @@ describe('Counter Component', () => {
     let wrapper = shallow(<Table />);
     // Autometic snapshot created
     expect(wrapper).toMatchSnapshot();
+  });
+});
+
+// to define mount
+
+describe('Mount vs Shallow', () => {
+  it('snapshot 3', () => {
+    let wrapper = shallow(<Table />);
+    console.log(wrapper.debug());
   });
 });
