@@ -4,15 +4,15 @@ import Table from '../table/Table';
 import { Counter } from './Counter';
 
 describe.skip('Counter Component', () => {
-  // it('render Without any error is Present', () => {
-  //   let wrapper = shallow(<Counter />);
-  //   console.log(wrapper.debug());
-  //   let isPresent = wrapper
-  //     // .find('fragment')
-  //     // .dive()
-  //     .is('[data-test="component-counter"]');
-  //   expect(isPresent).toBe(true);
-  // });
+  it('render Without any error is Present', () => {
+    let wrapper = shallow(<Counter />);
+    // console.log(wrapper.debug());
+    let isPresent = wrapper
+      // .find('fragment')
+      // .dive()
+      .is('[data-test="component-counter"]');
+    expect(isPresent).toBe(true);
+  });
   it('render Without any error & find length', () => {
     let wrapper = shallow(<Counter />);
     let isPresent = wrapper.find('[data-test="component-counter"]');
